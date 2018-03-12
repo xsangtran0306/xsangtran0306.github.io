@@ -1,0 +1,74 @@
+
+<html>
+<head>
+<style>
+  *{
+    box-sizing:border-box;
+    font-family: sans-serif;
+  }
+  .header,
+  .footer{
+    background-color:maroon;
+    color:white;
+    padding:15px;
+  }
+  .column{
+    float:left;
+    padding:15px;
+  }
+  .column img{
+    float:right;
+  }
+  .clearfix::after{
+    content: "";
+    clear:both;
+    display: table;
+  }
+  .menu{
+    width:25%;
+  }
+  .content{
+    width:75%;
+  }
+  .menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .menu li{
+    padding:8px;
+    margin-bottom:8px;
+    background-color: teal;
+    color:#ffffff
+  }
+  .menu li:hover{
+    background-color:#0099cc;
+  }
+  </style>
+</head>
+<body>
+<div class="header">
+<h1>Enver creek secondary</h1>
+</div>
+<div class="clearfix">
+<div class="column menu">
+<ul>
+<li><a href="https://mrbrown85.githb.io/main.html">main page</a></li>
+<li><a href="https://mrbrow85.github.io/clubs.html">clubs and teams</a></li>
+<li><a
+href="https://mrbrown85.github.io/departments.html">Departments</a></li>
+</ul>
+</div>
+<div class="column content">
+<img
+src="https://www.surreyschools.ca/schools/envercreek/style%20library/Images/114.jpg">
+<h1>welcome</h1>
+<p>enver creek secondary is located in the heart of surrey, british columbia.</p>
+<p>Students who come to Enver creek secondary can expect high academic expectations and a focus on community</p>
+</div>
+</div>
+<div class="footer">
+<p>Footer text</p>
+</div>
+</body>
+</html>
