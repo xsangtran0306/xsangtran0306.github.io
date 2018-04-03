@@ -1,0 +1,86 @@
+<html>
+
+  <head>
+    <style>
+      * {
+        box-sizing: border-box;
+        font-family: sans-serif;
+      }
+      .header,
+      .footer {
+        background-color:black;
+        color: white;
+        padding: 15px;
+      }
+      .column {
+        float: left;
+        padding: 15px;
+      }
+      img {
+        float: right;
+        width: 300px;
+        height: 250px;
+      }
+      .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+  
+      .content {
+        width: 100%;
+        float: right;
+      }
+      .more {
+        float: right;
+      }
+      .menu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      .menu li {
+        padding: 8px;
+        margin-bottom: 8px;
+        background-color: teal;
+        color: #ffffff
+      }
+      .menu li:hover {
+        background-color: #0099cc;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="header">
+      <h1>VietNam (sai gon)</h1>
+    </div>
+
+    <div class="clearfix">
+
+      <div class="column content">
+        <img src="http://tphcm.chinhphu.vn/Uploads/images/bg.jpg">
+        <h1>Independence Palace</h1>
+        <p>Also known as Reunification Palace, is an architectural work into the history of the country, was the working place of the Republic of Vietnam government during the anti-American resistance war. After the liberation, the Independence Palace was classified as a special national monument. Today, on every important anniversary of the Vietnamese people as 30/4, 2/9 thousands of people came here to visit as well as to review the history of the nation as well as the memory of the fallen heroes. because of independence.</p>
+
+      </div>
+
+        <!-- <img src="http://media.vnbongda.vn/files/images/site-1/20171124/ibrahimovic-toi-gianh-33-danh-hieu-o-tat-ca-nhung-noi-tung-thi-dau-champions-league-luon-la-1-muc-tieu-14-24112017100725.jpg"> -->
+        <div class="columm content more">
+
+        <h1>Cho ben thanh</h1>
+                <img src="https://www.citypassguide.com/media/slideshow/SG-BenThanhNight-04.06-WI10-L.01.jpg.1024x768_q85.jpg">
+        <p>One can not fail to mention this place first when it has been considered a symbol of Saigon for decades. This market is located in the central district 1 of the city, next to Quach Thi Trang Square and 23/9 park. Location is the reason why this market is bustling, crowded. Ben Thanh Market was started construction, completed in the early years of the 20th century and has been operating continuously since then.</p>
+        <p>With more than 3,000 stalls in the market, there are a wide variety of wholesale and retail goods, from affordable to luxury, so you can say that the products here are extremely diverse. From 8-9 am is the time when the stalls and counters open all the time, so from this time on, the market is always busy with the sellers, the space is really bustling..</p>
+      </div>
+      <div class="column content more">
+        <img src="http://btgcp.gov.vn/Uploads/resources/admin/images/2015/201504/20150409/Nh%C3%A0%20th%E1%BB%9D%2001.jpg">
+        <h1>Nha tho đuc ba</h1>
+        <p>If you are a fan of French classic literature, Victor Hugo must have envisioned the context of the story - where the passionate but grim love story takes place. is a church space majestic, hugely in the heart of Paris, ancient. And even in Saigon, there is such a house, not the context of the love story in the other, but it seems to be a replica called Saigon Notre Dame or the full name of Wang the Basilica of the Immaculate Conception and the impressive French classical architecture and Christian culture. At every weekend, the church is the place for celebrations.
+ .</p>
+        
+      </div>
+
+    </div>
+  </body>
+</html>
